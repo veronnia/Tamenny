@@ -1,0 +1,20 @@
+.btn {
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.overl {
+    display: none;
+    z-index: 1000;
+}
+
+.overlay {
+    display: block;
+}

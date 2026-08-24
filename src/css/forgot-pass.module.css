@@ -1,0 +1,45 @@
+    
+    .gra {
+        color: #B8AFAA;
+    }
+
+/* first */
+
+.input1 {
+    border: none;
+    padding: 0px 5%;
+    height: 25%;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+}
+
+.input1:focus {
+    outline: 1px solid #1B3C53;
+}
+
+.input2 {
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+    background-color: white;
+    text-align: center;
+    }
+
+.input2:focus {
+    outline: 1px solid #1B3C53;
+}
+
+.p2 {
+    cursor: pointer;
+    color: red;
+}
+
+/* second */
+
+

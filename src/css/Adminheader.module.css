@@ -1,0 +1,121 @@
+.head {
+    z-index: 100;
+}
+
+.div3 {
+    color: #1B3C53;
+    transition: 0.5s;
+}
+
+.listitems {
+    transition: 0.5s ease;
+    z-index: 1000;
+}
+
+h3 {
+    color: #153044 !important;
+}
+
+.show {
+  left: 0;
+}
+
+.listitems button {
+    padding: 3% 3% 3% 0%;
+    color: #F9F3EF;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.listitems button:hover {
+    background-color: #153044;
+}
+
+.listitems i {
+    margin-right: 7%;
+}
+
+.btn {
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn1:active {
+    
+   background-color: #bdb1ac;
+}
+
+
+
+.overl {
+    display: none;
+}
+
+.loutoverlay {
+    display: block;
+    z-index: 1001;
+}
+
+.deloverlay {
+    display: block;
+    z-index: 1001;
+}
+
+.listt {
+    z-index: 150;
+}
+
+/* List items */
+.link {
+  position: relative;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 2px 3px;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #1B3C53;
+  transition: width 0.5s;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.active {
+  border-bottom: 1px solid #1B3C53;
+}
+
+.active::after {
+  width: 100%;
+}
+
+/* for notifications */
+
+.activeIcon {
+  border-bottom: 1px solid #1B3C53;
+}
+
+.activeIcon::after {
+  width: 100%;
+}

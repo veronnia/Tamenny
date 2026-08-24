@@ -1,0 +1,48 @@
+.btn {
+    padding: 1% 4%;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn1:active {
+    
+}
+
+
+
+/* -------------------------------------------------------- */
+
+.btnn {
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.btnn:hover {
+    opacity: 0.8;
+}
+
+.btnn1:active {
+    
+   background-color: #bdb1ac;
+}
+
+.btnn2:active {
+    background-color: rgb(162, 0, 0);
+}
+
+.overl {
+    display: none;
+    z-index: 1000;
+}
+
+.overlay {
+    display: block;
+}

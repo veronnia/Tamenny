@@ -1,0 +1,25 @@
+.div3 {
+    transition: 0.5s;
+}
+
+.cha {
+    color: #F9F3EF;
+}
+
+.listitems {
+    transition: right 0.5s ease;
+}
+
+.listitems button {
+    padding: 3% 3% 3% 0%;
+    color: #F9F3EF;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+}
+
+.listitems i {
+    margin-right: 7%;
+}

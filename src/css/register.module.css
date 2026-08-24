@@ -1,0 +1,172 @@
+    .parent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .div1 {
+        width: 38%;
+        height: 100vh;
+        background-color: #1B3C53;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h3 {
+        color: #F9F3EF;
+        font-size: 30px;
+        text-align: center;
+        margin: 70px;
+    }
+
+    .gra {
+        color: #B8AFAA;
+    }
+
+    .contain {
+        padding: 5% 5% 0% 5%;
+        height: fit-content;
+    }
+
+    .btn1 {
+        background-color: rgba(1,1,1,0);
+        border: none;
+        text-align: left;
+        color:#F9F3EF;
+        font-size:x-large;
+        margin-bottom: 5%;
+    }
+
+    .btn1:hover {
+        cursor: pointer;
+    }
+
+    .btn1:active {
+        color: #0e1c27;
+    }
+
+
+/* first */
+
+.div2 {
+    width: 62%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 40px;
+    color:#1B3C53;
+}
+
+.div6 {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin: 0px 12%;
+}
+
+.circle1 {
+    background-color: #1B3C53;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 40%;
+}
+
+.div7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+}
+
+.p1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 10px 0px;
+    background-color: #DDD1C9;
+    border: none;
+    box-shadow: 2px 2px #7e8e99;
+    font-size: 28px;
+    color: #1B3C53;
+    text-transform: capitalize;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #c9bbb3;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+.btn2.active {
+  background-color:#1B3C53;
+  color: white;
+}
+
+.btn3.active {
+  background-color:#1B3C53;
+  color: white;
+}
+
+.div5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn4 {
+    padding: 6% 25%;
+    color: white;
+    background-color: #1B3C53;
+    border: none;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+.p2 {
+    color: #1B3C53;
+}
+
+.log {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* second */
+
+
+.second {
+    width: 62%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}

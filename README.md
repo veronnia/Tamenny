@@ -68,19 +68,23 @@ The project consists of multiple components working together:
 ## Technologies
 
 ### Frontend
+- React.js
+- JavaScript
+- HTML / CSS
+- Tailwind CSS
 
-* React.js
-* JavaScript
-* HTML / CSS
-* Tailwind CSS
+### Libraries
+- React Router
+- Axios
+- Recharts
 
 ### Backend Integration
+- REST APIs
+- Axios
 
-* REST APIs
-
-### Other Tools
-
-* Git & GitHub
+### Development & Tools
+- Git & GitHub
+- Create React App
 
 ## Project Scope
 
